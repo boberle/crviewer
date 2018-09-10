@@ -1,0 +1,19 @@
+#title:Les abeilles et Zeus
+
+#textid:abeilles
+
+#source:https://fr.wikisource.org/wiki/Fables_d%E2%80%99%C3%89sope/Les_Abeilles_et_Zeus
+
+{pAbeilles:categorie="d nom défini",expansion="",fonction="s sujet",head="0" Les abeilles}, enviant {M3:categorie="p nom possessif",expansion="",fonction="v compl (verbe)",head="1" {pAbeilles:categorie="e déterminant possessif",expansion="",fonction="n compl (nom)",head="0" leur} miel} {M4:categorie="d nom défini",expansion="",fonction="v compl (verbe)",head="1" aux hommes}, allèrent trouver {pZeus:categorie="n nom propre",expansion="",fonction="v compl (verbe)",head="0" Zeus} et {pZeus:categorie="s pronom personnel",expansion="",fonction="v compl (verbe)",head="0" le} {pAbeilles:categorie="z pronom zéro",expansion="",fonction="s sujet",head="0" prièrent} de {pAbeilles:categorie="s pronom personnel",expansion="",fonction="v compl (verbe)",head="0" leur} donner de {M9:categorie="d nom défini",expansion="",fonction="v compl (verbe)",head="1" la force} pour tuer à {M10:categorie="t nom sans déterminant",expansion="",fonction="c circonstant",head="0" coups d'{M11:categorie="t nom sans déterminant",expansion="",fonction="n compl (nom)",head="0" aiguillon}} {CeuxQuiSApprochent:categorie="o pronom démonstratif",expansion="",fonction="v compl (verbe)",head="0" ceux {CeuxQuiSApprochent:categorie="r pronom relatif",expansion="",fonction="s sujet",head="0" qui} {CeuxQuiSApprochent:categorie="f pronom réfléchi",expansion="",fonction="v compl (verbe)",head="0" s'}approcheraient de {M14:categorie="p nom possessif",expansion="",fonction="v compl (verbe)",head="1" {pAbeilles:categorie="e déterminant possessif",expansion="",fonction="n compl (nom)",head="0" leurs} cellules}}. {pZeus:categorie="n nom propre",expansion="",fonction="s sujet",head="0" Zeus}, indigné de {pAbeilles:categorie="s pronom personnel",expansion="",fonction="v compl (verbe)",head="0" les} voir envieuses, {pAbeilles:categorie="s pronom personnel",expansion="",fonction="v compl (verbe)",head="0" les} condamna à perdre {M24:categorie="p nom possessif",expansion="",fonction="v compl (verbe)",head="1" {pAbeilles:categorie="e déterminant possessif",expansion="",fonction="n compl (nom)",head="0" leur} dard}, toutes les fois qu'{pAbeilles:categorie="s pronom personnel",expansion="",fonction="s sujet",head="0" elles} {M24:categorie="s pronom personnel",expansion="",fonction="v compl (verbe)",head="0" en} frapperaient {M22:categorie="i nom indéfini",expansion="",fonction="v compl (verbe)",head="0" quelqu'un}, et à mourir après.
+
+{M25:categorie="m nom démonstratif",expansion="",fonction="s sujet",head="1" Cette fable} peut s'appliquer {Envieux:categorie="d nom défini",expansion="",fonction="v compl (verbe)",head="1" aux envieux {Envieux:categorie="r pronom relatif",expansion="",fonction="s sujet",head="0" qui} consentent à souffrir {Envieux:categorie="f pronom réfléchi",expansion="",fonction="v compl (verbe)",head="0" eux-mêmes} {M30:categorie="d nom défini",expansion="",fonction="v compl (verbe)",head="1" des maux {M30:categorie="r pronom relatif",expansion="",fonction="v compl (verbe)",head="0" qu'}{Envieux:categorie="s pronom personnel",expansion="",fonction="s sujet",head="0" ils} font}}. 
+
+
+
+#COLOR:pAbeilles=hsl(0, 100%, 80%)
+#COLOR:pZeus=hsl(50, 100%, 80%)
+#COLOR:CeuxQuiSApprochent=hsl(25, 100%, 80%)
+#COLOR:Envieux=hsl(75, 100%, 80%)
+
+#TOKENIZATION-TYPE:1
+
