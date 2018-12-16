@@ -83,18 +83,18 @@ public class Annotation implements Comparable<Annotation> {
          } catch (NumberFormatException e) {
             // nothing
          }
-      } else if (key.equals("expansion")) {
-         properties.put("expansion", val.equals("") ? "no" : "yes");
-         properties.put("expansion-adj", val.indexOf("a")==-1 ? "no" : "yes");
-         properties.put("expansion-verb", val.indexOf("v")==-1 ? "no" : "yes");
-         properties.put("expansion-apposition", val.indexOf("p")==-1 ? "no" : "yes");
-         properties.put("expansion-relative", val.indexOf("r")==-1 ? "no" : "yes");
-         properties.put("expansion-noun", val.indexOf("n")==-1 ? "no" : "yes");
-         properties.put("expansion-sub", val.indexOf("s")==-1 ? "no" : "yes");
+      } else if (key.equals("expansion_")) {
+         properties.put("expansion_", val.equals("") ? "no" : "yes");
+         properties.put("expansion_-adj", val.indexOf("a")==-1 ? "no" : "yes");
+         properties.put("expansion_-verb", val.indexOf("v")==-1 ? "no" : "yes");
+         properties.put("expansion_-apposition", val.indexOf("p")==-1 ? "no" : "yes");
+         properties.put("expansion_-relative", val.indexOf("r")==-1 ? "no" : "yes");
+         properties.put("expansion_-noun", val.indexOf("n")==-1 ? "no" : "yes");
+         properties.put("expansion_-sub", val.indexOf("s")==-1 ? "no" : "yes");
          for (int i = 0; i < val.length(); i++) {
             char c = val.charAt(i);
             if (c!='a' && c!='v' && c!='p' && c!='r' && c!='n' && c!='s') {
-               System.out.println("** unknown expnasion: "+c);
+               System.out.println("** unknown expansion: "+c);
                System.exit(1);
             }
          }
