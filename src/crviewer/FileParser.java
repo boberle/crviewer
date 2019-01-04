@@ -111,7 +111,7 @@ public class FileParser {
 
    private void getAnnotation(Line line, ArrayList<Token> tokens, ArrayList<Annotation> annotations)
          throws ParseException {
-      Annotation annot = new Annotation(getWord(line), Token.getTokenCount(), tokens);
+      Annotation annot = new Annotation(getWord(line, false, true), Token.getTokenCount(), tokens);
       annotations.add(annot);
       annot.setStart(tokens.size());
       if (line.nextChar() == ':') {
