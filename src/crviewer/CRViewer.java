@@ -529,7 +529,7 @@ public class CRViewer extends Application {
             new ShortCol<TextChunk,Double>("ChainDensity", "ChainDensity", chainColl).col,
             new ShortCol<TextChunk,Double>("LinkDensity", "LinkDensity", chainColl).col,
             new ShortCol<TextChunk,Double>("AnnotationDensity", "AnnotationDensity").col,
-            new ShortCol<TextChunk,Double>("#tokens", "WordTokenCount").col);
+            new ShortCol<TextChunk,Double>("#words", "WordTokenCount").col);
       if (displayUnit.equals(DisplayUnit.part) || displayUnit.equals(DisplayUnit.parttype)
             || displayUnit.equals(DisplayUnit.text) || displayUnit.equals(DisplayUnit.corpus)) {
          //table.getColumns().add(new ShortCol<TextChunk,Double>("#pars", "ParagraphsCount").col);

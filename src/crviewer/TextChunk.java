@@ -148,17 +148,17 @@ public abstract class TextChunk {
    public double getAverageChainSize(ChainCollection chainColl) {
       return ((double)this.getLinkCount(chainColl))/((double)this.getChainCount(chainColl));
    }
-   
+
    public double getChainDensity(ChainCollection chainColl) {
-      return ((double)this.getChainCount(chainColl)) / ((double)this.getTokenCount());
+      return ((double)this.getChainCount(chainColl)) / ((double)this.getWordTokenCount());
    }
-   
+
    public double getLinkDensity(ChainCollection chainColl) {
-      return ((double)this.getLinkCount(chainColl)) / ((double)this.getTokenCount());
+      return ((double)this.getLinkCount(chainColl)) / ((double)this.getWordTokenCount());
    }
 
    public double getAnnotationDensity() {
-      return ((double)this.annotations.size()) / ((double)this.getTokenCount());
+      return ((double)this.annotations.size()) / ((double)this.getWordTokenCount());
    }
 
 
