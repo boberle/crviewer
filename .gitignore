@@ -4,3 +4,6 @@ bin
 .settings/
 testfiles/
 *.jar
+*.zip
+
+crviewer-*/
